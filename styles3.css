@@ -1,0 +1,125 @@
+/* Reset dasar */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #4d7c4d;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a0e99c;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header .logo a {
+  font-size: 1.5em;
+  color: black;
+  text-decoration: none;
+}
+
+/* Container utama */
+.container {
+  flex: 1; /* Membuat container memenuhi ruang tengah */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Pusatkan secara vertikal */
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  width: 100%; /* Ukuran lebih kecil agar lebih rapat */
+  padding: 18px;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #9acd9a;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi untuk hover */
+}
+
+.team-member:hover {
+  transform: scale(1.1); /* Perbesar ukuran */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Tambahkan shadow lebih besar */
+}
+
+/* Styling untuk gambar */
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+
+.info{
+  color: black;
+  background-color: #a8d5a8;
+  width: 100%;
+  margin-bottom: 1px; 
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-family: 'Courier New';
+  font-size: 1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Animasi untuk hover */
+}
+
+.info:hover {
+  background-color: #4d7c4d; /* Ubah warna latar */
+  color: #fff; /* Ubah warna teks */
+}
+
+/* Styling untuk deskripsi */
+.deskripsi {
+  color: #ffffff;
+  font-family: Tahoma;
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 5px;
+  background-color: #6fa26f;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px #fffefe33;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.deskripsi{
+  margin-bottom: 0px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #1a3c1b;
+}
+
+footer a {
+  text-decoration: none;
+  color: #0c230e;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #43a047;
+  text-decoration: underline;
+}
