@@ -1,4 +1,4 @@
-Project UAS Algoritma dan Pemrograman
+Project UAS Algoritma dan Pemrograman (KELOMPOK 3)
 - Agnesia Nadya Tassi (1242002063)
 - Ahmad Fauzi Ridwan (1242002051)
 - Aliyatus Syifa(1242002082)
